@@ -1,0 +1,25 @@
+{
+  "name": "electronic-notepad",
+  "version": "1.0.0",
+  "description": "take notes and save them to be viewed later",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindsayreiner/electronic-notepad.git"
+  },
+  "author": "Lindsay Reiner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindsayreiner/electronic-notepad/issues"
+  },
+  "homepage": "https://github.com/lindsayreiner/electronic-notepad#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
