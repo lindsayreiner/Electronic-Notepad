@@ -10,10 +10,11 @@ router.get('/api/notes', (req, res) => {
     res.json(notes)
 });
 
-//:id dynamic variables
-router.delete('/api/notes/:id', (req, res) => {
-    res.json(notes)
-});
+// //:id dynamic variables
+// router.delete('/api/notes/:id', (req, res) => {
+//     res.json(notes);
+
+// });
 
 router.post('/api/notes', (req, res) => {
     const notes = JSON.parse(fs.readFileSync(path.join(__dirname, '../db/db.json'), 'utf8'))
