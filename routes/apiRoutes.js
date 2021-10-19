@@ -17,13 +17,13 @@ router.get('/api/notes', (req, res) => {
 // });
 
 router.post('/api/notes', (req, res) => {
-    const notes = JSON.parse(fs.readFileSync(path.join(__dirname, './db/db.json'), 'utf8'))
+    const notes = JSON.parse(fs.readFileSync(path.join(__dirname, '../db/db.json'), 'utf8'))
     const { title, text } = req.body;
     const newNote = {
         title, text, id: uuidv4()
     }
     notes.push(newNote);
-    fs.writeFileSync(path.join(__dirname, './db/db.json'), JSON.stringify(notes))
+    fs.writeFileSync(path.join(__dirname, '../db/db.json'), JSON.stringify(notes))
     res.json(newNote);
 });
 
