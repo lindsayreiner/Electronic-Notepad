@@ -8,6 +8,9 @@ This application was created for you to keep track of your day, make to-do lists
 
 Live link: https://electronic-notes.herokuapp.com/
 
+<img src="public/assets/images/final-notetaker-landing.png" alt="website-screenshot">
+<img src="public/assets/images/final-notetaker.png" alt="website-screenshot">
+
 # Table of contents
 
 [Installation](#installation)  
